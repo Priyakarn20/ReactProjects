@@ -2,6 +2,24 @@ Redux - It is a state management tool .
  It allows us to define one inclusive store for our application and each component can have access to that single store .    
 
  Benefits of redux 
- It is not specific to react and can be used with another frameworks too .
+It is not specific to react and can be used with another frameworks too .
 By using this, we can manage state of application too .
-Redux makes it easy to debug an application . 
+Redux makes it easy to debug an application . (debugging - the process of identifying & removing errors from computer hardware and software )
+
+Steps in Redux 
+1) Action types : Increment, Decrement , Reset
+2) Actions: Functions - state manipulation, dispatch
+3) Reducer : Initial state-data manipulation.. the changes by action type , we use if-else condition , 
+        switch case(if increment .. state+1, if decrement ..state-1) 
+4) Store : store all states
+
+Connect- import react-redux
+eg. export default App,
+
+Connection with redux - export default connect()(App);
+
+connect - 2 Functions
+(mapStateToProps, mapDispatchToProps)
+
+1st mapStateToProps - state present in store, maps with props of component .
+2nd mapDispatchToProps - converts our actions(functions) into props, we can use in component .
