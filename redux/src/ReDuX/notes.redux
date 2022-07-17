@@ -4,3 +4,4 @@ Redux - It is a state management tool .
  Benefits of redux 
  It is not specific to react and can be used with another frameworks too .
 By using this, we can manage state of application too .
+Redux makes it easy to debug an application . 
